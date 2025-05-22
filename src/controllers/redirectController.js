@@ -14,7 +14,7 @@ function handleRedirect(req, res) {
     return res.status(404).json({ error: 'Link không tồn tại' });
   }
 
-  return res.json({ originalUrl });     
+  return res.redirect(originalUrl);;     
 }
 
 module.exports = {
