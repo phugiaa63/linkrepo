@@ -9,4 +9,4 @@ router.get('/:code', handleRedirect);
 // Route gốc không có code → cũng redirect luôn
 router.get('/', handleRedirect);
 
-module.exports = router;ule.exports = router;
+module.exports = router;
