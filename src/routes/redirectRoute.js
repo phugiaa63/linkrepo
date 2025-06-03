@@ -6,9 +6,7 @@ const router = express.Router();
 // Route điều hướng qua code
 router.get('/:code', handleRedirect);
 
-// Route gốc không có code → lỗi
-router.get('/', (req, res) => {
-  res.status(400).json({ error: 'Thiếu mã code để điều hướng' });
-});
+// Route gốc không có code → cũng redirect luôn
+router.get('/', handleRedirect);
 
-module.exports = router;
+module.exports = router;ule.exports = router;
