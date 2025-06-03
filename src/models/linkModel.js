@@ -1,13 +1,16 @@
 const linkMap = {
   'abc123': {
-    mobile: 'https://www.finbiz88.site/',
-    desktop: 'https://www.finbiz88.site/',
-    description: 'FinBiz88 - Your one-stop solution for financial news and updates.'
+    mobile: 'https://www.sao789a.to/',
+    desktop: 'https://www.sao789a.to/',
+    description: 'Sao789A - Your one-stop solution for financial news and updates.'
   }
 };
 
-function getOriginalUrl(code) {
-  return linkMap[code] || null;
+function getOriginalUrl() {
+  return {
+    targetUrl: 'https://sao789a.to',
+    description: 'Sao789A'
+  };
 }
 
 module.exports = {
