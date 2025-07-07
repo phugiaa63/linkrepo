@@ -1,26 +1,17 @@
-# node modules
+# Node.js
 node_modules/
 
-# môi trường
+# Environment variables
 .env
 
-# log files
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# hệ điều hành
+# OS
 .DS_Store
 Thumbs.db
 
-# IDE/editor files
+# VSCode
 .vscode/
-.idea/
-
-# build output
-dist/
-build/
-
-# lock files (tuỳ dự án)
-package-lock.json
-yarn.lock
