@@ -14,6 +14,6 @@ exports.handleRedirect = (req, res) => {
     return res.redirect(302, BOT_SAFE_PAGE_URL);
   }
 
-  console.log('🚶 Người dùng thật ➜ redirect đến landing page');
+  // console.log('🚶 Người dùng thật ➜ redirect đến landing page');
   return res.redirect(302, LANDING_PAGE_URL);
 };
