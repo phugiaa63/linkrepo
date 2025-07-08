@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MianSon - Company Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0; padding: 0;
+            background: #f4f4f4;
+            color: #222;
+        }
+        header {
+            background: #2d3e50;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background: #1a2533;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+        }
+        .about, .services, .contact {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #2d3e50;
+        }
+        footer {
+            background: #2d3e50;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        @media (max-width: 700px) {
+            .container { padding: 15px; }
+            nav a { margin: 0 10px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MianSon</h1>
+        <p>Your Trusted Business Partner</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <p>
+                MianSon is a leading company dedicated to delivering innovative solutions and exceptional services to our clients. With a commitment to excellence and a passion for growth, we help businesses achieve their goals efficiently and effectively.
+            </p>
+        </section>
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Business Consulting</li>
+                <li>Technology Solutions</li>
+                <li>Project Management</li>
+                <li>Customer Support</li>
+            </ul>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p>
+                Email: info@mianson.com<br>
+                Phone: +1 (555) 123-4567<br>
+                Address: 123 Main Street, City, Country
+            </p>
+        </section>
+    </div>
+    <footer>
+        &copy; 2024 MianSon. All rights reserved.
+    </footer>
+</body>
+</html>
